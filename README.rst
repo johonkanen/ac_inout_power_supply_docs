@@ -1,9 +1,4 @@
-Template for the Read the Docs tutorial
-=======================================
+Documentation pages for an FPGA controlled power supply
+=======================================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
-
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+See code at https://github.com/johonkanen/ac_in_ac_out_lab_power_supply
