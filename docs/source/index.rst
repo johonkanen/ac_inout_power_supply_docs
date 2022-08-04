@@ -1,16 +1,11 @@
-Welcome to high level synthesizable VHDL project (hVHDL) documentation!
-=======================================================================
+Welcome to bidirectional power supply build documentation pages!
+================================================================
 
 .. note::
 
-   This project is under active development.
+   These pages we just created and are just a copy of another doc pages right now, will be updated soon
 
-
-.. literalinclude:: ../vhdl_sources/header_example.vhd
-   :caption: High level code example
-   :language: vhdl
-
-**hVHDL** is a set of coding patterns for standard VHDL that are designed manage complexity of digital system design in VHDL. Complexity is managed by dividing large systems into small individual pieces that can be designed, tested and updated in isolation from each other. The coding patterns allow us to support incremental design, testing and development of the VHDL source code and to increase the level of abstraction. All code has been tested with an FPGA using Xilinx Vivado, ISE, Intel Quartus or Efinix Efinity tools and simulated with GHDL.
+The VHDL code for this project is built using hVHDL libraries
 
 https://github.com/hVHDL
 
