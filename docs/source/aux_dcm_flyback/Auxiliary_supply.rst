@@ -19,6 +19,6 @@ The transformer design for low power DCM flyback is relatively simple. The trans
 
 The design is very simple, just add desired core characteristics and then iterate powers, the ripple factor to obtain a reasonable design where the windings are close enough for full turns. The design that I used has 52 turn primary, 8 turn secondaries and an off the shelf 250um gapped ee20 core of ef87 ferrite material. The coil formers and border tape are from aliexpress.
 
-The structure of the transformer is visible in the picture talen during winding. There are 3mm border tapes on both sides of the transformer and the windings are built from 3 strands of awg34 wire. The wires are not twisted together sinve it is easier to wind in this way. Note that the ends are not sleeved even though this would be required for off line transformer thus new transformer needs tp be built with the ends pulled out of the winding inside proper extra isolation.
+The structure of the transformer is visible in the picture talen during winding. There are 3mm border tapes on both sides of the transformer and the windings are built from 3 strands of awg34 wire and all windings are isolated with 3 layers of capton between them. The wires are not twisted together since the transformer is easier to wind in this way. Note that the ends are not sleeved even though this would be required for off line transformer thus new transformer needs to be built with the ends pulled out of the winding inside proper extra isolation.
 
 .. image:: ../../../20220803_195351.jpg
