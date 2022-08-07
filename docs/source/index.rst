@@ -3,7 +3,7 @@ Welcome to bidirectional power supply build documentation pages!
 
 .. image:: ../../full_picture.jpg
 
-The VHDL code for this project is built using hVHDL libraries
+The VHDL code for this project is built using hVHDL libraries. The hVHDL libraries and high level methods allow the code to be written at high level. This allows very fast development and continuously improve and reuse existing code.
 
 https://github.com/hVHDL
 
