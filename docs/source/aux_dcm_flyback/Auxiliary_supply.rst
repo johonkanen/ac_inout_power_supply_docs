@@ -15,4 +15,6 @@ The IW1818 has very good cross regulation. This was tested in a lab with 200mW a
 Transformer design
 ------------------
 
-The transformer design for low power DCM flyback is relatively simple. The transformer design is just copied from **document**
+The transformer design for low power DCM flyback is relatively simple. The transformer design is just copied from Fairchild Application Note AN4137.
+
+The design is very simple, just add desired core characteristics and then iterate powers, the ripple factor to obtain a reasonable design where the windings are close enough for full turns. The design that I used has 52 turn primary, 8 turn secondaries and an off the shelf 250um gapped ee20 core of ef87 ferrite material. The coil formers and border tape are from aliexpress.
