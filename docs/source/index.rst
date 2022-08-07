@@ -3,10 +3,6 @@ Welcome to bidirectional power supply build documentation pages!
 
 .. image:: ../../full_picture.jpg
 
-.. note::
-
-   These pages we just created and are just a copy of another doc pages right now, will be updated soon with actual project content
-
 The VHDL code for this project is built using hVHDL libraries
 
 https://github.com/hVHDL
@@ -19,5 +15,7 @@ https://github.com/hVHDL
     about/module_repository_structure.rst
 
 .. toctree::
-    :caption: Why FPGA for power electronics
+    :caption: Why FPGA/VHDL is king for power electronics
     :hidden:
+
+    fpga_for_power_electronics_control/test_driven_development_for_io.rst
