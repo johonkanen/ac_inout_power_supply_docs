@@ -18,13 +18,7 @@ https://github.com/hVHDL
     about/module_repository_structure
 
 .. toctree::
-    :caption: Examples
-    :hidden:
-
-    hvhdl_example_project/hvhdl_example_project.rst
-
-.. toctree::
-    :caption: High level VHDL modules
+    :caption: Why FPGA for power electronics
     :hidden:
 
     hvhdl_repositories/fixed_point_math_repository
@@ -36,7 +30,13 @@ https://github.com/hVHDL
     hvhdl_repositories/uart
 
 .. toctree::
-    :caption: Interfaces
+    :caption: Dual Active half Bridge
+    :hidden:
+
+    hvhdl_example_project/hvhdl_example_project.rst
+
+.. toctree::
+    :caption: Grid Inverter
     :hidden:
 
     interfaces/high_level_interfaces_in_VHDL 
@@ -45,7 +45,7 @@ https://github.com/hVHDL
     interfaces/real_numbers_in_synthesizable_VHDL.rst
 
 .. toctree::
-    :caption: High Level Coding Patterns
+    :caption: Output Inverter
     :hidden:
 
     high_level_coding_patterns/high level coding patterns in VHDL
@@ -53,7 +53,7 @@ https://github.com/hVHDL
     high_level_coding_patterns/sharing_hw_resources
 
 .. toctree::
-    :caption: Numerical methods with VHDL
+    :caption: Real-Time simulation
     :hidden:
 
     numerical_methods/solving_differential_equations
