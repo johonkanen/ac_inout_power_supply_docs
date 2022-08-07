@@ -19,3 +19,9 @@ https://github.com/hVHDL
     :hidden:
 
     fpga_for_power_electronics_control/test_driven_development_for_io.rst
+
+.. toctree::
+    :caption: Auxiliary supplies
+    :hidden:
+
+    aux_dcm_flyback/Auxiliary_supply.rst
