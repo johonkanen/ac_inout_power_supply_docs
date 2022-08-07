@@ -1,6 +1,8 @@
 Welcome to bidirectional power supply build documentation pages!
 ================================================================
 
+.. image:: ../../full_picture.jpg
+
 .. note::
 
    These pages we just created and are just a copy of another doc pages right now, will be updated soon with actual project content
