@@ -15,6 +15,9 @@ https://github.com/hVHDL
     :caption: About
     :hidden:
 
+    about/continuous_integration.rst
+    about/module_repository_structure.rst
+
 .. toctree::
     :caption: Why FPGA for power electronics
     :hidden:
