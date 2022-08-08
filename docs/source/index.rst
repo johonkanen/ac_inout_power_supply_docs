@@ -15,7 +15,7 @@ https://github.com/hVHDL
     about/module_repository_structure.rst
 
 .. toctree::
-    :caption: Why FPGA/VHDL is king for power electronics
+    :caption: Why FPGA/VHDL for power electronics
     :hidden:
 
     fpga_for_power_electronics_control/test_driven_development_for_io.rst
@@ -25,3 +25,4 @@ https://github.com/hVHDL
     :hidden:
 
     aux_dcm_flyback/Auxiliary_supply.rst
+    aux_dcm_flyback/gate_drive_power_supply.rst
