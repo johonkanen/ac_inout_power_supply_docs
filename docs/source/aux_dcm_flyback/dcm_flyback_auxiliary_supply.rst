@@ -1,5 +1,5 @@
-Auxiliary supplies
-======================
+DCM flyback auxiliary supply
+============================
 
 Since the power supply is designed to be operated from the line voltage, we need to design a low power supply that powers the FPGA, measuremen circuitry and control circuitry. The power supply of choise for this is discontinuous mode flyback power supply. The flyback requires a minimum amount of parts, since only a transformer, controller and a diode and a capacitor is required for any additional voltage.
 

@@ -24,7 +24,7 @@ https://github.com/hVHDL
     :caption: Auxiliary supplies
     :hidden:
 
-    aux_dcm_flyback/Auxiliary_supply.rst
+    aux_dcm_flyback/dcm_flyback_auxiliary_supply.rst
     aux_dcm_flyback/gate_drive_power_supply/gate_drive_power_supply.rst
 
 .. toctree::
