@@ -25,4 +25,4 @@ https://github.com/hVHDL
     :hidden:
 
     aux_dcm_flyback/Auxiliary_supply.rst
-    aux_dcm_flyback/gate_drive_power_supply.rst
+    aux_dcm_flyback/gate_drive_power_supply/gate_drive_power_supply.rst
