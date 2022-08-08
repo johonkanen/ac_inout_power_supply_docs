@@ -5,8 +5,6 @@ The system is controlled using a Cyclone 10 LP FPGA. The control card is placed 
 
 Interestingly the first revision of the power supply board has a bug in that the main connector is mirrored. However, since an FPGA is used here, the fix is simply to reroute the IO:s in the build script and swap 4 pins due to opposing ground connection.
 
-.. image:: ../../../../20220808_160759.jpg
-
 ADS7056 AD converter
 --------------------
 
