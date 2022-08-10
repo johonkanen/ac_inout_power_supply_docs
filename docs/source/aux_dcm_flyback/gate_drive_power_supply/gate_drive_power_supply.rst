@@ -9,8 +9,11 @@ The partially assembled boards are visible in the Figure below.
 
 The gate power supplies have an EE10 transformers for each board and every board creates voltages for one half bridge. Additionally one of the pins is just the raw 15V voltage, which is used for powering the isolated ADC that is used to measure the inductor currents.
 
-The transformer has 5 windings. 8 turn primary with 4 and 14 turn secondaries for the 15V and -4V voltages. The transformer design is pretty much based on just having a good enough unregulated voltages, thus it is more or less trial and error. I found that a satisfactory design was with primary wound as the first layer and then the secondaries are wound in two separate sections such that for one winding the 4 and 14 turn secondaries are on top of each other. This way the winding is quite symmetric and that should result in good enough cross regulation. The increased stray inductance also is useful for reducing inrush current.
+Gate power transformer design
+-----------------------------
 
-The transformer before final taping is shown below
+The transformer has 5 windings. 8 turn primary with 4 and 14 turn secondaries for the 15V and -4V voltages. The transformer design is pretty much based on just having a good enough unregulated voltages. From experience I know that a 8 turn primary will be sufficient to prevent in this configuration excessive core loss. However since the regulation of the voltages is dependent on the diodes, stray inductance and input voltages, all of which have some uncertainty the design is more or less trial and error with the hardware. I found that a satisfactory design was with primary wound as the first layer and then the secondaries are wound in two separate sections such that for one winding the 4 and 14 turn secondaries are on top of each other. This way the winding is quite symmetric and that should result in good enough cross regulation. The increased stray inductance also is useful for reducing inrush current.
+
+The transformer before final taping is shown below. The two pairs of secondaries are wound in similar fashion side by side and a layer of tape is placed between them
 
 .. image:: ../../../../gate_power_transformer_build.jpg
