@@ -14,4 +14,3 @@ Ethernet PHY
 ------------
 
 The ethernet chip is PEF707 as this is the same as is used with the cyclone 10 lp evaluation kit. The Ethernet phy has an onboard switched mode controller that makes powering the phy very simple. 
-
