@@ -1,11 +1,17 @@
 Welcome to bidirectional power supply build documentation pages!
 ================================================================
-
 .. image:: ../../full_picture.jpg
 
-The VHDL code for this project is built using hVHDL libraries. The hVHDL libraries and high level methods allow the code to be written at high level. This allows very fast development and continuously improve and reuse existing code.
+These are documentation pages and build log for fully FPGA controlled bidrectional power supply. The code can be found in github at 
+
+https://github.com/johonkanen/ac_in_ac_out_lab_power_supply
+
+The VHDL code for this project is built using hVHDL libraries. The hVHDL libraries and high level methods allow the code to be written at high level and the methods allow for very fast development and continuously improvement and reuse of existing code. The hVHDL project is open source and can be found in Github
 
 https://github.com/hVHDL
+
+
+I have written about the design methods and some of the math behind this power supply at my home page https://hardwaredescriptions.com
 
 .. toctree::
     :caption: About
