@@ -19,7 +19,7 @@ The transformer before final taping is shown below. The two pairs of secondaries
 .. image:: ../../../../gate_power_transformer_build.jpg
 
 Gate power measurements
------------------------------
+-----------------------
 
 The gate power supply has no snubbers, but due to the losses in the gate drive transformer it self the the achieved waveforms are fairly clean. The -4V bias for the gates show almost perfect square voltage waveforms and the 15V high voltage winding shows manageable undershoot with very little ringing.
 
@@ -30,3 +30,8 @@ The gate power supply has no snubbers, but due to the losses in the gate drive t
 There is no rampup of the pwm waveforms, thus the stray inductance and circuit resistances are what restrict the gate power supply current during transient. Since there is no DC inductor, the gate power natural rampup is very clean with no overshoot.
 
 .. image:: ../../../../gate_power_rampup.jpg
+
+Notes
+-----
+
+The first implementation of the gate drive powers is quite lossy. Powering all 12 gates of the power supply takes roughly 4.5 W which seems a bit high, but there is no thermal issues and I let it run for several hours, so it seems to work well enough for now.
