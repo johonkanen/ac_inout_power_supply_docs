@@ -9,12 +9,14 @@ https://github.com/johonkanen/ac_in_ac_out_lab_power_supply
 
 The VHDL code for this project is built using hVHDL libraries. The hVHDL libraries and high level methods allow the code to be written at high level and the methods allow for very fast development and continuously improvement and reuse of existing code. The hVHDL project is open source and can be found in Github
 
+
 https://github.com/hVHDL
 
 
 I have written about the design methods and some of the math behind this power supply at my home page https://hardwaredescriptions.com
 
 I have opened a discussions page in the github where you can write any comments, questions or general ideas. If there is some other platform better suited for this you can write a comment in the discussions page.
+https://github.com/johonkanen/ac_inout_power_supply_docs/discussions
 
 .. toctree::
     :caption: About
