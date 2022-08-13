@@ -14,6 +14,8 @@ https://github.com/hVHDL
 
 I have written about the design methods and some of the math behind this power supply at my home page https://hardwaredescriptions.com
 
+I have opened a discussions page in the github where you can write any comments, questions or general ideas. If there is some other platform better suited for this you can write a comment in the discussions page.
+
 .. toctree::
     :caption: About
     :hidden:
