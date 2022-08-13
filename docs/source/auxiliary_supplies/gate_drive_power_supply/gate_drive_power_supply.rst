@@ -17,3 +17,16 @@ The transformer has 5 windings. 8 turn primary with 4 and 14 turn secondaries fo
 The transformer before final taping is shown below. The two pairs of secondaries are wound in similar fashion side by side and a layer of tape is placed between them
 
 .. image:: ../../../../gate_power_transformer_build.jpg
+
+Gate power measurements
+-----------------------------
+
+The gate power supply has no snubbers, but due to the losses in the gate drive transformer it self the the achieved waveforms are fairly clean. The -4V bias for the gates show almost perfect square voltage waveforms and the 15V high voltage winding shows manageable undershoot with very little ringing.
+
+
+.. image:: ../../../../gate_power_waveforms_4v.jpg
+.. image:: ../../../../gate_power_waveforms_15v.jpg
+
+There is no rampup of the pwm waveforms, thus the stray inductance and circuit resistances are what restrict the gate power supply current during transient. Since there is no DC inductor, the gate power natural rampup is very clean with no overshoot.
+
+.. image:: ../../../../gate_power_rampup.jpg
