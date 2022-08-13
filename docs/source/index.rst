@@ -1,6 +1,6 @@
 Welcome to bidirectional power supply build documentation pages!
 ================================================================
-.. image:: ../../full_picture.jpg
+.. image:: ../../20220811_182755.jpg
 
 These are documentation pages and build log for fully FPGA controlled bidrectional power supply. The code can be found in github at 
 
