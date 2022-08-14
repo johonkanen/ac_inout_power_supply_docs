@@ -27,7 +27,7 @@ The pcbs are designed using Proteus Professional, which has a fully featured dem
     :hidden:
 
     about/continuous_integration.rst
-    about/module_repository_structure.rst
+    about/what_is_this_project.rst
 
 .. toctree::
     :caption: Why FPGA/VHDL for power electronics

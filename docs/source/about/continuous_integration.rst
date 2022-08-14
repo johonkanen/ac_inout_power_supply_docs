@@ -1,5 +1,5 @@
 Continuous Integration for VHDL
-======================
+===============================
 
 The project is developed using the idea of continuous integration. This means that the code is continuously build with the target device and developed in small increments. The main branch is kept in functioning shape at all times and the code is run against tests.
 
