@@ -1,59 +1,45 @@
 Welcome to bidirectional power supply build documentation pages!
 ================================================================
 
-.. note::
+.. image:: ../../20220811_182755.jpg
 
-   These pages we just created and are just a copy of another doc pages right now, will be updated soon with actual project content
+These are documentation pages and build log for fully FPGA controlled bidrectional power supply. The code can be found in github at 
 
-The VHDL code for this project is built using hVHDL libraries
+https://github.com/johonkanen/ac_in_ac_out_lab_power_supply
+
+The VHDL code for this project is built using hVHDL libraries. The hVHDL libraries and high level methods allow the code to be written at high level and the methods allow for very fast development and continuously improvement and reuse of existing code. The hVHDL project is open source and can be found in Github
+
 
 https://github.com/hVHDL
+
+
+I have written about the design methods and some of the math behind this power supply at my home page https://hardwaredescriptions.com
+
+I have opened a discussions page in the github where you can write any comments, questions or general ideas. If there is some other platform better suited for this you can write a comment in the discussions page.
+https://github.com/johonkanen/ac_inout_power_supply_docs/discussions
 
 .. toctree::
     :caption: About
     :hidden:
 
-    about/what_is_hvhdl.rst
-    about/usage
-    about/module_repository_structure
+    about/continuous_integration.rst
+    about/module_repository_structure.rst
 
 .. toctree::
-    :caption: Examples
+    :caption: Why FPGA/VHDL for power electronics
     :hidden:
 
-    hvhdl_example_project/hvhdl_example_project.rst
+    fpga_for_power_electronics_control/test_driven_development_for_io.rst
 
 .. toctree::
-    :caption: High level VHDL modules
+    :caption: Auxiliary supplies
     :hidden:
 
-    hvhdl_repositories/fixed_point_math_repository
-    hvhdl_repositories/floating_point
-    hvhdl_repositories/memory_module
-    hvhdl_repositories/fpga_interconnect
-    hvhdl_repositories/dynamic_verification
-    hvhdl_repositories/gigabit_ethernet
-    hvhdl_repositories/uart
+    auxiliary_supplies/dcm_flyback_auxiliary_supply.rst
+    auxiliary_supplies/gate_drive_power_supply/gate_drive_power_supply.rst
 
 .. toctree::
-    :caption: Interfaces
+    :caption: Control hardware
     :hidden:
 
-    interfaces/high_level_interfaces_in_VHDL 
-    interfaces/Using libraries in VHDL
-    interfaces/Automatic code timing with handshake interface
-    interfaces/real_numbers_in_synthesizable_VHDL.rst
-
-.. toctree::
-    :caption: High Level Coding Patterns
-    :hidden:
-
-    high_level_coding_patterns/high level coding patterns in VHDL
-    high_level_coding_patterns/code_reuse
-    high_level_coding_patterns/sharing_hw_resources
-
-.. toctree::
-    :caption: Numerical methods with VHDL
-    :hidden:
-
-    numerical_methods/solving_differential_equations
+    FPGA_control_card/control_card.rst

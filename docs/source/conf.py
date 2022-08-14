@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'hVHDL'
+project = 'Bidirectional power supply documentation'
 copyright = '2022, Jari Honkanen'
 author = 'johonkanen'
 
