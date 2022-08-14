@@ -18,6 +18,10 @@ I have written about the design methods and some of the math behind this power s
 I have opened a discussions page in the github where you can write any comments, questions or general ideas. If there is some other platform better suited for this you can write a comment in the discussions page.
 https://github.com/johonkanen/ac_inout_power_supply_docs/discussions
 
+The pcb files are found on the documentation github page at https://github.com/johonkanen/ac_inout_power_supply_docs/tree/main/pcb_files
+
+The pcbs are designed using Proteus Professional, which has a fully featured demo version with which you can view the schematics. The demo version can be downloaded for free at https://www.labcenter.com/downloads/
+
 .. toctree::
     :caption: About
     :hidden:
