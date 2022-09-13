@@ -14,7 +14,7 @@ DCM flyback design
 
 Since dcm flyback is very common, there are a complete solutions available that does everything using just a single chip. The simplest chip for this that I have come accross is the family of of primary side feedback flyback controllers from Dialog Semiconductor. For this application, I chose IW1818 which allows for approximately a 10W flyback to be built. The IW1818 is a quasi resonant controller and the magic lies in that the feedback is taken from the primary side switched node. The measurement is taken from the reflected voltage of the transformer and this actually is influenced by all secondary voltages. Hence the feedback is taken automatically from all windings.
 
-The IW1818 has very good cross regulation. This was tested in a lab with 200mW and 5W loads at which the primary and secondary were measured between 15.3V and 14.6V with 15 V being the design goal. Jee
+The IW1818 has very good cross regulation. This was tested in a lab with 200mW and 5W loads at which the primary and secondary were measured between 15.3V and 14.6V with 15 V being the design goal.
 
 Transformer design
 ------------------
